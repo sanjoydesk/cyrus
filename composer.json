@@ -1,0 +1,22 @@
+{
+    "name": "sanjoydesk/cyrus",
+    "type": "library",
+    "description": "PHP Composer test",
+    "keywords": ["framework", "http", "rest"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sanjoy Dey",
+            "email": "dey.sanjoy0@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cyrus\\": "src/"
+        }
+    },
+     "minimum-stability": "dev"
+}
