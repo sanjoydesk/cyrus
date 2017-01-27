@@ -1,0 +1,25 @@
+{
+    "name": "sanjoydesk/myapp",
+    "type": "library",
+    "description": "PHP Composer test",
+    "keywords": ["framework", "http", "rest"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sanjoy Dey",
+            "email": "dey.sanjoy0@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.8"
+    },
+    "replace": {
+        "MyApp/Base": "self.version" 
+    },
+    "autoload": {
+        "psr-4": {
+            "MyApp\\": "src/"
+        }
+    },
+     "minimum-stability": "dev"
+}
