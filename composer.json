@@ -13,6 +13,9 @@
     "require": {
         "php": ">=5.3.8"
     },
+    "replace": {
+        "sanjoydesk/cyrus-component5": "self.version" 
+	},
     "autoload": {
         "psr-4": {
             "Cyrus\\": "src/"
