@@ -1,5 +1,5 @@
 {
-    "name": "sanjoydesk/cyrus",
+    "name": "sanjoydesk/testing-split",
     "type": "library",
     "description": "PHP Composer test",
     "keywords": ["framework", "http", "rest"],
@@ -15,8 +15,11 @@
     },
     "autoload": {
         "psr-4": {
-            "Cyrus\\": "src/"
+            "Cyrus\\Component3\\": ""
         }
     },
-     "minimum-stability": "dev"
+    "suggest": {
+        "league/flysystem": "Required to use the Flysystem local and FTP drivers (~1.0)."
+    },
+    "minimum-stability": "dev"
 }
